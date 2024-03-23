@@ -1,0 +1,188 @@
+.presentBlog {
+    background-color: black;
+}
+.topBorder {
+    width: 100%;
+}
+.presentBlogWrapper {
+    width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.presentBlogHeadComp {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding-bottom: 25px;
+}
+.presentBlogPromotion {
+    width: 132px;
+    height: 132px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+.presentBlogTitle {
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63.3px;
+    text-align: left;
+    color: #ffffff;
+}
+.presentBlogSubTitle {
+    max-width: 952px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: #ffffff;
+}
+.presentBlogSubTitleText {
+    color: rgba(82, 190, 220, 1);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+}
+.presentBlogComp {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding-top: 25px;
+}
+.presentBlogForm {
+    padding-top: 63px;
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.presentBlogInput {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 11px;
+    padding-left: 0;
+    color: #fff;
+    border-bottom: 1px solid #777;
+    margin-bottom: 26px;
+}
+.presentBlogFormLable {
+    width: 360px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var#fff;
+    border: 1px dashed #777;
+    padding: 40px;
+    margin-bottom: 32px;
+}
+.presentBlogformLabelfile {
+    overflow: visible;
+    position: absolute;
+    opacity: 0;
+}
+.presentBlogformLabelText {
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 18px;
+    border-bottom: 1px solid #fff;
+}
+.presentBlogformLabelText::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    outline: 2px solid #fff;
+}
+.presentBlogformLabelImages {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    box-sizing: border-box;
+}
+.presentBlogformBtn {
+    padding: 19px 50px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    text-align: left;
+    cursor: pointer;
+    background: #f8f200;
+    border: none;
+    margin-bottom: 25px;
+}
+.presentBlogformCheckbox {
+    position: relative;
+    box-sizing: border-box;
+    padding-bottom: 70px;
+}
+.presentBlogcheckboxInput {
+    position: absolute;
+    opacity: 0;
+    box-sizing: border-box;
+    padding: 0;
+    overflow: visible;
+}
+.presentBlogcheckboxText {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+}
+.presentBlogcheckboxText::before {
+    content: "";
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+    box-sizing: border-box;
+    border: 1px solid #777777;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.presentBlogcheckboxText::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    outline: 2px solid #fff;
+}
+.presentBlogImage {
+    width: 504;
+    height: 456px;
+}
+
+.bottomBorder {
+    width: 100%;
+}
+/* 
+
+--accent-color: #f8f200;
+--dark-color: #000;
+--light-color: #fff;
+--text-color: #777; */
+img {
+    width: 100%;
+    height: 100%;
+}
