@@ -1,0 +1,57 @@
+.headerComponent {
+    background: url(/public/img/imageFirst.png) no-repeat;
+    animation: anim 10s ease-in-out infinite;
+    height: 100%;
+}
+.blokInfo {
+    width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+    margin-top: 464px;
+    padding: 70px;
+    display: flex;
+    justify-content: right;
+}
+.blokInfoIntermediate {
+    width: 624px;
+}
+
+.blokInfo_Info {
+    background: #f8f200;
+    padding: 70px;
+    overflow: hidden;
+    clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
+}
+.blokInfoText {
+    max-width: 484px;
+    margin: 0;
+    margin-bottom: 24px;
+    font-family: "Archangelsk", sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 63px;
+    color: var(--dark-color);
+}
+.blokInfoBtn {
+    padding: 19px 50px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    background-color: black;
+    color: #f8f200;
+    border: none;
+    cursor: pointer;
+}
+@keyframes anim {
+    0% {
+        background: url(/public/img/imageFirst.png) no-repeat;
+    }
+    50% {
+        background: url(/public/img/imageSecond.png) no-repeat;
+    }
+    100% {
+        background: url(/public/img/imageThird.png) no-repeat;
+    }
+}
