@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.headerComponent {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 296px;
+    height: 74px;
+}
+.socialNetwork {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.iconSocialNetwork {
+    width: 30px;
+    height: 30px;
+}
