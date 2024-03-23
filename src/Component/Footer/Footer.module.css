@@ -1,1 +1,14 @@
-
+.footer {
+    background: black;
+    margin: 0 auto;
+}
+.footerText {
+    padding: 13px 0;
+    color: #ffffff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: center;
+}
