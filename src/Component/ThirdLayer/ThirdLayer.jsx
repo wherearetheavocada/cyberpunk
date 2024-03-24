@@ -23,10 +23,11 @@ export default function ThirdLayer(){
                         <div className={styles.ImagePlace}><a href="" className={styles.ScreenshotText}>Прикрепить скриншот</a><div className={styles.expansion}>.png / .jpg / .pdf</div></div>
                         <div>   
                             <a className={styles.LinkSend} href="">Отправить</a>
-                            <div className={styles.BottomText}>
+                            <label className={styles.BottomText}>
                                 <input className={styles.Tap} type="checkbox" />
-                                <div className={styles.Agreetment}>Согласен на обработку персональных данных</div>
-                            </div>
+                                <span className={styles.fake}></span>
+                                <span className={styles.Agreetment}>Согласен на обработку персональных данных</span>
+                            </label>
                         </div>
                     </div>
                     <div className={styles.PlayStation}></div>
