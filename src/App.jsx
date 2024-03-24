@@ -7,6 +7,7 @@ import HeaderFullContent from './Component/HeaderFullContent/HeaderFullContent'
 import CityInformation from './Component/CityInformation/CityInformation'
 import ThirdLayer from './Component/ThirdLayer/ThirdLayer'
 import FourthLayer from './Component/FourthLayer/FourthLayer'
+import FifthLayer from './Component/FifthLayer/FifthLayer'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
      <CityInformation/>
      <ThirdLayer/>
      <FourthLayer/>
+     <FifthLayer/>
     </>
   )
 }
