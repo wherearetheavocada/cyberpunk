@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.HeaderMainImg {
+    width: 100%;
+    height: 1000px;
+    background-image: url('../../../public/img/11.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: anim 10s ease-in-out infinite;
+}
+
+@keyframes anim {
+    0% {
+        background: url('../../../public/img/11.png') no-repeat;
+    }
+    50% {
+        background: url('../../../public/img/112.png') no-repeat;
+    }
+    100% {
+        background: url('../../../public/img/Untitled-1\ 2.png') no-repeat;
+    }
+}
+
+.InfoBlock {
+    left: 976px;
+    top: 631px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 624px;
+    height: 369px;
+    background-color: #F8F200;
+    clip-path: polygon(7.8% 0, 100% 0, 100% 86.5%, 92.2% 100%, 0 100%, 0 13.5%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.InfoBlockWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    height: 229px;
+}
+
+.HeaderText {
+    width: 484px;
+    height: 126px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 63px;
+
+    color: #000000;
+}
+
+.MoreInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 19px 50px;
+
+    width: 272px;
+    height: 78px;
+
+    background: #000000;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #F8F200;
+}

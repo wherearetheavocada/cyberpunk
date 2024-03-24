@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.Header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.Header_content {
+    display: flex;
+    width: 1280px;
+    height: 74px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeaderMenu {
+    width: 379px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
